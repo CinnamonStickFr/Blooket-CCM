@@ -4,7 +4,7 @@
 // this menu was coded by lime fully in 1 day, please save my wrists or kill me
 // to use, go to https://raw.githubusercontent.com/CinnamonStickFr/Blooket-CCM/refs/heads/main/CCMV1.js and click ctrl a then ctrl c or go on to google drive then click preview and then ctrl c and then ctrl v
 // when you did the copy and pasting, load into a blooket code (make sure you do this when the game is running or in the avatar selector screen)
-// when you do all of that,
+// gotta find a way to inject the code stupid roadblock
 // have the funnies of the bunnies!!!!!!!!!!!!!!!!
 
 (() => {
