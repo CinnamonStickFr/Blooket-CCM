@@ -1,10 +1,8 @@
 // !!!!!!!!!!MAKE SURE TO READ ALL OF THIS IN ORDER SO IT WORKS PROPERLY!!!!!!!!
 // noties i guess
-// the max weight to be set in fishing frenzy (this might go for other game modes) is 1e+308? which if you didn't know means 1 followed by 308 zeros
-// this menu was coded by lime fully in 1 day, please save my wrists or kill me
-// to use, go to https://raw.githubusercontent.com/CinnamonStickFr/Blooket-CCM/refs/heads/main/CCMV1.js and click ctrl a then ctrl c or go on to google drive then click preview and then ctrl c and then ctrl v
+// the max currency or whatever to be set in gamemodes is 1e+308? which if you didn't know means 1 followed by 308 zeros, you can set it to this by putting 308 9s exactly anything over will set it to 0 but if you set it to that number and then get a triple currency then it will say infinite
 // when you did the copy and pasting, load into a blooket code (make sure you do this when the game is running or in the avatar selector screen)
-// gotta find a way to inject the code stupid roadblock
+// gotta find a way to inject the code (only at school) stupid roadblock
 // have the funnies of the bunnies!!!!!!!!!!!!!!!!
 
 (() => {
@@ -42,7 +40,7 @@
         };
 
         let settings,
-            settingsKey = "KGUI.BenIsASillyGoose";
+            settingsKey = "KGUI.DIEDIEDIE";
         const Settings = {
             data: null,
             setItem(k, v) {
@@ -3308,13 +3306,14 @@
         const copyrightTag = document.createElement("span");
         copyrightTag.className = classes.copyrightTag;
 
-        copyrightTag.innerText = `Copyright © ${new Date().getFullYear()} Lime`;
+        copyrightTag.innerText = `Copyright © ${new Date().getFullYear()} Temp & PooperSchw4rtz`;
 
         const codingCredits = document.createElement("ul");
         codingCredits.className = classes.codingCredits;
 
-        codingCredits.append(createCredit("Coder + GUI Designer", "Lime"));
-
+        codingCredits.append(createCredit("Coder + GUI Designer", "PooperSchw4rtz"));
+        codingCredits.append(createCredit("Code Fixer + GUI Redesigner", "Temp"));
+        
         const creditLinks = document.createElement("ul");
         creditLinks.className = classes.creditLinks;
 
@@ -3839,7 +3838,7 @@
 
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/Blooket-Council/Blooket-Cheats/main/autoupdate/timestamps/KGui.png?" + Date.now();
+    img.src = "?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
@@ -3853,7 +3852,7 @@
             if (char == "/" && last == "*") break;
             last = char;
         }
-        let _, time = timeProcessed, error = "it looks like blookets anticheat is trying to block you. confirm this prompt to bypass blookets so called 'anticheat'. it is really awful and easy to bypass.";
+        let _, time = timeProcessed, error = "error or something, i dont know man!";
         try {
             [_, time, error] = decode.match(/LastUpdated: (.+?); ErrorMessage: "((.|\n)+?)"/);
         } catch (e) {}
@@ -3863,7 +3862,6 @@
         img.onerror = img.onabort = null;
         cheat();
         let iframe = document.querySelector("iframe");
-        iframe.contentWindow.alert("welcome to ccmv1! this is coded by lime, you can do pretty much anything. just try to be a little lowkey with it and if you dont care then just have fun!")
+        iframe.contentWindow.alert("welcome to crimson menu! you are using v2 of the menu, you can check the github for updates")
     }
 })();
-//dev note from mr lime: its 3am, imma go cry myself to sleep with all of this time wasted now bye bye!
